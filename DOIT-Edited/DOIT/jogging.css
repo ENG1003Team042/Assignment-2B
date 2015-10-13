@@ -1,0 +1,60 @@
+#demo-menu-lower-right {
+  margin-left: 97%;
+}
+
+#title-middle {
+  text-align: center;
+}
+
+#duration {
+  text-align: center;
+}
+
+p.one {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+    float:left;
+    padding-right: 303px;
+}
+
+p.three {
+    border-style: solid;
+    border-width: medium;
+    float:right;
+    padding-left: 303px;
+}
+
+p.four{
+    position: fixed;
+    bottom: 0;
+    width: 1360px;
+    border: 3px solid #8AC007;
+}
+
+
+p.demo {
+    border-style: solid;
+    border-width: medium;
+    float:middle;
+    
+}
+
+#mapholder {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+
+label {
+  font-size:200%;
+}

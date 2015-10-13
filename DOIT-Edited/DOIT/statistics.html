@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> Statistics </title>    
+
+<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
+<script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="jogging.css" />
+</head>
+
+<!-- middle title -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header" for ="title-middle">
+	<header class="mdl-layout__header">
+		<div class="mdl-layout__header-row">
+			<!-- Title -->
+			<span class="mdl-layout-title">Statistics</span>
+            <div class="mdl-layout-spacer"></div>
+            <i class="material-icons"><img src="statistics.jpg" style="width:20px;height:20px;"></i>
+		</div>
+	</header>
+
+	<!-- top left burron -->
+	<div class="mdl-layout__drawer">
+		<span class="mdl-layout-title">Tabs</span>
+		<nav class="mdl-navigation">
+			<a class="mdl-navigation__link" href="index.html"><img src="Jogging.png" style="width:20px;height:20px;">Do It</a>
+			<a class="mdl-navigation__link" href="history.html"><img src="history.jpg" style="width:20px;height:20px;">History </a>
+			<a class="mdl-navigation__link" href="statistics.html"><img src="statistics.jpg" style="width:20px;height:20px;">Statistics</a>
+		</nav>
+	</div>
+
+	<main class="mdl-layout__content">
+	<!-- Your content goes here -->
+
+	<button id="demo-menu-lower-left" class="mdl-button mdl-js-button mdl-button--icon"><i class="material-icons">more_vert</i></button>Month
+	<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-left">
+		<li class="mdl-menu__item">January</li>
+		<li class="mdl-menu__item">February</li>
+		<li class="mdl-menu__item">March</li>
+		<li class="mdl-menu__item">April</li>
+	</ul>
+	
+	<body>    
+		<table class="mdl-data-table mdl-js-data-table mdl-data-table mdl-shadow--2dp">
+			<thead>
+				<tr>
+					<th class="mdl-data-table__cell--non-numeric">Recent run</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="mdl-data-table__cell--non-numeric">Activity</td>
+					<td>0.00km</td>
+					<td>00:00:00</td>
+					<td>DDMMYYYY</td>
+				</tr>
+			</tbody>
+		</table>
+    </body>
+	
+	<body>    
+		<table class="mdl-data-table mdl-js-data-table mdl-data-table mdl-shadow--2dp">
+			<thead>
+				<tr>
+					<th class="mdl-data-table__cell--non-numeric">Best run</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="mdl-data-table__cell--non-numeric">Activity</td>
+					<td>0.00km</td>
+					<td>00:00:00</td>
+					<td>DDMMYYYY</td>
+				</tr>
+			</tbody>
+		</table>
+    </body>
+	</main>
+</div>
+
+</html>
